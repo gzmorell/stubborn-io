@@ -12,6 +12,8 @@ readme = "README.md"
  
 [dependencies]
 tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["full"] }
+tokio-stream = "0.1"
 log = "0.4"
 
 [dev-dependencies]
